@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.icon{
+  width: 290px;
+  height: 290px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.icon-team{
+  width: 220px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 538px){
+  .icon{
+    width: 200px;
+    height: 220px;
+  }
+
+  .icon-team{
+    width: 160px;
+    height: 220px;
+  }
+
+}
+
+
+@media (min-width: 768px){
+  .icon{
+    width: 200px;
+    height: 200px;
+  }
+
+}
+  
